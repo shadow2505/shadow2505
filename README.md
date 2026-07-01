@@ -1,54 +1,45 @@
-# Hola, soy Angel Alejandro Oliva Romero
+# Angel Alejandro Oliva Romero
 
-**Estudiante de Ingeniería en Sistemas Computacionales · QA Manual Junior · Data & Front-end básico · Puebla, México**
+Estudiante de Ingenieria en Sistemas Computacionales en Puebla, Mexico.
 
-Estoy construyendo un perfil práctico para trabajo remoto: revisión de sitios web, reportes de bugs, limpieza de datos, documentación técnica y landing pages básicas. No vendo humo senior, vendo algo más raro en internet: trabajo claro, puntual y comprobable.
+Perfil orientado a trabajo remoto junior:
 
-## Qué puedo hacer ahora
+- QA Manual.
+- Web testing.
+- Reportes de bugs.
+- Limpieza de datos.
+- Front-end basico.
+- Documentacion tecnica.
 
-- **QA Manual / Web Testing:** pruebas exploratorias, formularios, navegación, responsive, enlaces rotos y reportes de bugs.
-- **Data Cleaning:** limpieza de tablas, normalización de datos, revisión de duplicados y control en CSV/Sheets.
-- **Front-end básico:** landing pages simples con HTML, CSS y JavaScript.
-- **Documentación:** reportes claros con pasos, evidencia, severidad y recomendaciones.
+## Proyectos demostrativos
 
-## Stack defendible
-
-| Área | Herramientas |
+| Proyecto | Link |
 |---|---|
-| QA | Manual testing, bug reports, test cases, responsive testing |
+| QA Lab | projects/qa-lab/index.html |
+| Plan de pruebas web | projects/test-plan/index.html |
+| Revision de datos | projects/data-review/index.html |
+| Plantillas freelance | docs/freelance-proposal-templates.md |
+| Reporte QA | docs/qa-report-template.md |
+
+## Stack
+
+| Area | Herramientas |
+|---|---|
+| QA | Manual testing, bug reports, test cases |
 | Front-end | HTML, CSS, JavaScript |
-| Datos | Google Sheets, CSV, SQL básico |
-| Flujo de trabajo | GitHub, Markdown, documentación técnica |
+| Datos | Google Sheets, CSV, SQL basico |
+| Docs | GitHub, Markdown, reportes |
 
-## Portafolio
+## Como trabajo
 
-Estoy preparando una página de portafolio dentro de este repositorio:
-
-- `index.html`: landing profesional.
-- `styles.css`: diseño responsive.
-- `script.js`: interacción básica.
-- `docs/qa-report-template.md`: ejemplo de reporte QA.
-- `docs/data-cleaning-case-study.md`: caso de limpieza de datos.
-- `docs/freelance-proposal-templates.md`: plantillas para aplicar a trabajos.
-
-Cuando GitHub Pages esté activado, el sitio se podrá consultar como página pública.
-
-## Enfoque profesional
-
-Me interesa trabajar en proyectos pequeños y concretos donde pueda entregar valor rápido:
-
-1. Revisar el material.
-2. Detectar errores o inconsistencias.
-3. Documentar con evidencia.
-4. Entregar recomendaciones claras.
-5. Mejorar el producto sin complicar al cliente.
+1. Entiendo el objetivo.
+2. Defino alcance.
+3. Reviso con metodo.
+4. Documento hallazgos.
+5. Entrego recomendaciones.
 
 ## Contacto
 
-- **Email:** 25angel05oliva@gmail.com
-- **GitHub:** https://github.com/shadow2505
-- **Ubicación:** Puebla, México
-
----
-
-> Perfil en construcción activa. Cada proyecto aquí debe demostrar algo útil, no decorar como árbol de Navidad corporativo.
+Email: 25angel05oliva@gmail.com  
+GitHub: https://github.com/shadow2505  
+Ubicacion: Puebla, Mexico
