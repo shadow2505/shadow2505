@@ -1,0 +1,4 @@
+fecha,fuente,cantidad,categoria,estado,observaciones
+2026-07-01,Registro A,500,Operacion,Revisado,Dato validado
+2026-07-02,Registro B,800,Servicio,Pendiente,Falta confirmar
+2026-07-03,Registro C,620,Operacion,Revisado,Sin duplicados
