@@ -1,0 +1,19 @@
+{
+  "name": "angel-alejandro-portfolio",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Portfolio for QA Manual, Data Cleaning, Front-end basics and technical documentation.",
+  "scripts": {
+    "preview": "npx serve .",
+    "check": "npx html-validate index.html case-studies/*.html"
+  },
+  "keywords": [
+    "qa-manual",
+    "web-testing",
+    "data-cleaning",
+    "portfolio",
+    "github-pages"
+  ],
+  "author": "Angel Alejandro Oliva Romero",
+  "license": "MIT"
+}
