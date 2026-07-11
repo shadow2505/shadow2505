@@ -1,21 +1,57 @@
 # Angel Alejandro Oliva Romero
 
-**QA Manual Junior · Web Testing · Data Cleaning · Front-end básico · Documentación técnica**
+**Administración · Control documental · QA Manual · Data Cleaning · Front-end básico**
 
-Estudiante de Ingeniería en Sistemas Computacionales en Puebla, México. Este repositorio reúne proyectos demostrativos orientados a trabajo remoto junior y freelance. El objetivo no es aparentar experiencia senior, sino mostrar criterio, orden, documentación y capacidad de entrega.
+Estudiante de Ingeniería en Sistemas Computacionales en Puebla, México. Este repositorio reúne experiencia administrativa verificable, dos versiones ATS del currículum y proyectos demostrativos orientados a trabajo remoto junior, posiciones administrativas y becarías de TI.
 
 ## Propuesta de valor
 
-Puedo revisar sitios web, detectar errores, organizar información, limpiar datos, preparar reportes y construir páginas informativas simples. Mi enfoque es convertir tareas ambiguas o desordenadas en entregables claros y accionables.
+Puedo revisar expedientes y sitios web, detectar errores, capturar y organizar información, limpiar datos, preparar reportes y construir páginas informativas simples. Mi enfoque es convertir tareas ambiguas o desordenadas en entregables claros y accionables.
+
+## Dos perfiles de entrada
+
+| Perfil | Puestos objetivo | Evidencia |
+|---|---|---|
+| Administración y control documental | auxiliar administrativo, capturista, back office, archivo, asistente virtual | experiencia en expedientes, hojas de cálculo, llamadas, correo, informes y documentación |
+| Becario / Trainee de TI | soporte TI, mesa de ayuda, QA manual trainee, operaciones tecnológicas, front-end básico | carrera en Sistemas, GitHub, HTML, CSS, JavaScript, datos y proyectos publicados |
+
+## Currículum ATS
+
+- [Página de currículum y comparación de versiones](cv/index.html)
+- [CV Administración y Control Documental - PDF](cv/CV_Angel_Oliva_Administrativo_ATS.pdf)
+- [CV Administración - versión web](cv/administrativo.html)
+- [CV Becario / Trainee de TI - PDF](cv/CV_Angel_Oliva_TI_Trainee_ATS.pdf)
+- [CV TI Trainee - versión web](cv/ti-trainee.html)
+
+Las dos versiones son de una sola columna, sin fotografía, sin domicilio completo, sin fecha de nacimiento, nacionalidad o estado civil. El contenido fue ajustado para evitar contradicciones y mantener únicamente habilidades verificables.
+
+## Experiencia incorporada
+
+### Auxiliar administrativo / Analista de expedientes
+**Centro de Atención Municipal de Puebla | 2026 - Actualidad**
+
+- Revisión y validación de expedientes digitales.
+- Captura y seguimiento de información en hojas de cálculo.
+- Detección de inconsistencias y elaboración de observaciones.
+- Revisión de PDF, croquis y documentación administrativa.
+
+### Asistente administrativo
+**Bufete de Abogados | Jul 2020 - Ago 2020**
+
+- Atención de llamadas y correo.
+- Archivo físico y digital.
+- Agenda, reuniones, Word, Excel y bases de datos.
+- Elaboración y registro de documentos e informes.
 
 ## Roles objetivo
 
 | Rol | Evidencia en el portafolio |
 |---|---|
-| QA Manual Junior | reportes de bugs, test plans, criterios de aceptación y checklists |
+| Auxiliar administrativo / Capturista | control documental, Excel, archivo, seguimiento e informes |
+| Technical Virtual Assistant | solicitudes, documentación, tickets y plantillas |
+| QA Manual Trainee | reportes de bugs, test plans, criterios de aceptación y checklists |
 | Web Tester | formularios, navegación, responsive, enlaces y contenido |
 | Data Entry / Data Cleaning | CSV, categorías, duplicados, campos vacíos y validación |
-| Technical Virtual Assistant | control documental, seguimiento, tickets y plantillas |
 | Junior Front-end Assistant | HTML, CSS, JavaScript y GitHub Pages |
 
 ## Proyectos destacados
@@ -33,11 +69,12 @@ Puedo revisar sitios web, detectar errores, organizar información, limpiar dato
 
 | Área | Herramientas |
 |---|---|
-| QA | manual testing, test cases, bug reports, checklists |
-| Front-end | HTML, CSS, JavaScript básico, GitHub Pages |
-| Datos | CSV, Google Sheets, SQL básico, validación manual |
+| Administración | captura, archivo físico/digital, seguimiento, correo, agenda e informes |
+| QA | manual testing, test cases, bug reports y checklists |
+| Front-end | HTML, CSS, JavaScript básico y GitHub Pages |
+| Datos | Excel, Google Sheets, CSV, SQL básico y validación manual |
 | Documentación | Markdown, GitHub, reportes y plantillas |
-| Operaciones | seguimiento, priorización y control de estados |
+| Diseño | Photoshop, Illustrator, Canva y AutoCAD básico |
 
 ## Estructura del repositorio
 
@@ -45,6 +82,7 @@ Puedo revisar sitios web, detectar errores, organizar información, limpiar dato
 index.html
 styles.css
 script.js
+cv/
 case-studies/
 docs/
 data/
@@ -56,10 +94,16 @@ sitemap.xml
 
 ## Publicación
 
-La versión V4 está preparada en la rama `portfolio-v4-ready`. Después de revisar el Pull Request, se puede fusionar a `main` y activar GitHub Pages desde:
+El portafolio está preparado para GitHub Pages:
 
 ```text
 Settings > Pages > Deploy from a branch > main > /root
+```
+
+URL esperada:
+
+```text
+https://shadow2505.github.io/shadow2505/
 ```
 
 ## Contacto
