@@ -1,0 +1,16 @@
+{
+  "name": "Angel Alejandro Portfolio",
+  "short_name": "AA Portfolio",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "Portafolio de QA Manual, Data Cleaning, Front-end básico y documentación técnica.",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
