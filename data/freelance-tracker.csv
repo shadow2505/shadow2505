@@ -1,0 +1,5 @@
+date,platform,client_reference,service,status,estimated_value,next_action
+2026-07-01,Workana,Client A,QA Manual,sent,500,follow up in three days
+2026-07-02,Freelance,Client B,Data Cleaning,viewed,800,prepare sample
+2026-07-03,Direct,Client C,Landing Page,interview,1800,send scope
+2026-07-04,Workana,Client D,Virtual Assistance,lost,600,review proposal
