@@ -1,102 +1,244 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Angel Alejandro | QA Manual, Data & Front-end</title>
-  <meta name="description" content="Portafolio profesional de Angel Alejandro: QA Manual, testing web, reportes de bugs, limpieza de datos y front-end básico." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angel Alejandro | QA Manual, Datos y Front-end</title>
+  <meta name="description" content="Portafolio de Angel Alejandro: QA Manual, web testing, limpieza de datos, documentación técnica, operaciones remotas y front-end básico.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="Angel Alejandro | QA Manual, Datos y Front-end">
+  <meta property="og:description" content="Casos demostrativos de testing, datos, documentación y operaciones remotas.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
   <header class="topbar">
-    <nav class="nav container">
-      <a class="brand" href="#inicio"><span>AA</span> Angel Alejandro</a>
-      <button class="menu" id="menu" aria-label="Abrir menú">☰</button>
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">AA</span>
+        <span class="brand-copy">Angel Alejandro<small>QA · DATA · WEB</small></span>
+      </a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menú</button>
       <div class="nav-links" id="navLinks">
         <a href="#servicios">Servicios</a>
         <a href="#proyectos">Proyectos</a>
-        <a href="#proceso">Proceso</a>
+        <a href="#metodo">Método</a>
         <a href="#contacto">Contacto</a>
+        <button class="theme-button" id="themeButton" aria-label="Cambiar tema">◐</button>
       </div>
     </nav>
   </header>
 
-  <main id="inicio">
-    <section class="hero container">
+  <main id="contenido">
+    <section class="hero container" id="inicio">
       <div class="hero-copy reveal">
-        <p class="kicker">QA Manual · Data Cleaning · Front-end básico</p>
-        <h1>Detecto errores, ordeno datos y convierto ideas en entregables claros.</h1>
-        <p class="lead">Soy estudiante de Ingeniería en Sistemas Computacionales en Puebla, México. Me enfoco en trabajos remotos concretos: revisar sitios web, probar formularios, documentar bugs, limpiar datos y construir landing pages simples.</p>
-        <div class="actions">
-          <a class="btn primary" href="mailto:25angel05oliva@gmail.com">Contactarme</a>
-          <a class="btn secondary" href="#proyectos">Ver evidencia</a>
+        <p class="eyebrow">Puebla, México · Disponible para trabajo remoto junior</p>
+        <h1>Convierto información desordenada en pruebas, reportes y sistemas claros.</h1>
+        <p class="lead">Soy estudiante de Ingeniería en Sistemas Computacionales. Mi portafolio demuestra cómo reviso sitios web, documento errores, limpio datos, organizo operaciones y construyo páginas sencillas sin vender humo senior envuelto en gradientes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:25angel05oliva@gmail.com">Contactarme</a>
+          <a class="button secondary" href="#proyectos">Explorar proyectos</a>
+          <a class="text-link" href="docs/portfolio-v4-guide.md">Ver guía del portafolio →</a>
+        </div>
+        <div class="role-list" aria-label="Roles objetivo">
+          <span>QA Manual Junior</span>
+          <span>Web Tester</span>
+          <span>Data Cleaning</span>
+          <span>Technical Assistant</span>
+          <span>Front-end básico</span>
         </div>
       </div>
-      <aside class="hero-panel reveal">
-        <p class="panel-status"><span></span> Disponible para proyectos pequeños</p>
-        <h2>Trabajo ideal para empezar</h2>
-        <ul>
-          <li>Revisión de landing pages antes de publicación.</li>
-          <li>Pruebas manuales de formularios, botones y navegación.</li>
-          <li>Reportes de bugs con severidad, pasos y sugerencias.</li>
-          <li>Limpieza de datos en CSV, Sheets o tablas simples.</li>
-        </ul>
+
+      <aside class="hero-dashboard reveal" aria-label="Resumen del portafolio">
+        <div class="availability"><span></span> Disponible para proyectos pequeños</div>
+        <div class="metric-grid">
+          <article><strong>18</strong><span>proyectos documentados</span></article>
+          <article><strong>6</strong><span>áreas profesionales</span></article>
+          <article><strong>6</strong><span>casos destacados</span></article>
+          <article><strong>100%</strong><span>enfoque defendible</span></article>
+        </div>
+        <div class="dashboard-note">
+          <strong>Lo que recibe un cliente:</strong>
+          <ul>
+            <li>Objetivo y alcance claros.</li>
+            <li>Hallazgos priorizados.</li>
+            <li>Entregables fáciles de revisar.</li>
+            <li>Siguiente mejora recomendada.</li>
+          </ul>
+        </div>
       </aside>
     </section>
 
-    <section class="section container">
-      <div class="section-head reveal">
-        <p class="kicker">Stack realista</p>
-        <h2>Habilidades que puedo defender</h2>
-        <p>Este portafolio está diseñado para trabajos junior y freelance con entregables claros.</p>
-      </div>
-      <div class="skill-grid">
-        <article class="card reveal"><h3>QA Manual</h3><p>Testing exploratorio, casos de prueba simples, validación visual, enlaces, formularios y responsive.</p><div class="tags"><span>Bug reports</span><span>Test cases</span><span>Web testing</span></div></article>
-        <article class="card reveal"><h3>Datos</h3><p>Limpieza, ordenamiento, normalización, revisión de duplicados y control básico en tablas.</p><div class="tags"><span>CSV</span><span>Google Sheets</span><span>Data cleaning</span></div></article>
-        <article class="card reveal"><h3>Front-end</h3><p>Landing pages informativas con HTML, CSS, JavaScript básico y estructura responsive.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
-        <article class="card reveal"><h3>Documentación</h3><p>Reportes en Markdown con objetivo, alcance, evidencia, pasos para reproducir y recomendaciones.</p><div class="tags"><span>Markdown</span><span>GitHub</span><span>Docs</span></div></article>
-      </div>
-    </section>
-
-    <section id="servicios" class="section container">
-      <div class="section-head reveal"><p class="kicker">Servicios vendibles</p><h2>Paquetes simples para clientes</h2></div>
+    <section class="section container" id="servicios">
+      <header class="section-heading reveal">
+        <p class="eyebrow">Servicios</p>
+        <h2>Trabajo pequeño, entrega seria</h2>
+        <p>Servicios pensados para clientes que necesitan claridad y ejecución, no una reunión de cuarenta minutos para decidir el nombre de una columna.</p>
+      </header>
       <div class="service-grid">
-        <article class="service reveal"><span class="service-number">01</span><h3>Mini auditoría QA</h3><p>Revisión de una web pequeña: navegación, botones, enlaces, formulario y versión móvil.</p><ul><li>Reporte de errores.</li><li>Evidencia documentada.</li><li>Prioridad por severidad.</li></ul></article>
-        <article class="service reveal"><span class="service-number">02</span><h3>Limpieza de datos</h3><p>Ordeno tablas y archivos simples para convertir información desordenada en datos utilizables.</p><ul><li>Corrección de formatos.</li><li>Separación de columnas.</li><li>Detección de duplicados.</li></ul></article>
-        <article class="service reveal"><span class="service-number">03</span><h3>Landing page básica</h3><p>Creo páginas simples y claras para presentar servicios, contacto y propuesta de valor.</p><ul><li>Diseño responsive.</li><li>HTML/CSS/JS básico.</li><li>Publicable en GitHub Pages.</li></ul></article>
+        <article class="service-card reveal">
+          <span class="service-number">01</span>
+          <h3>Auditoría QA Manual</h3>
+          <p>Revisión de navegación, formularios, enlaces, responsive, contenido y errores visuales.</p>
+          <ul><li>Reporte de bugs</li><li>Severidad y prioridad</li><li>Pasos para reproducir</li></ul>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">02</span>
+          <h3>Limpieza de datos</h3>
+          <p>Organización de CSV y hojas de cálculo con formatos, categorías y duplicados inconsistentes.</p>
+          <ul><li>Tabla limpia</li><li>Resumen de cambios</li><li>Registros pendientes</li></ul>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">03</span>
+          <h3>Control documental</h3>
+          <p>Checklists, revisión de campos obligatorios, observaciones y estados de expediente.</p>
+          <ul><li>Matriz de revisión</li><li>Errores frecuentes</li><li>Observaciones claras</li></ul>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">04</span>
+          <h3>Landing page básica</h3>
+          <p>Páginas informativas responsive para perfiles, servicios o negocios pequeños.</p>
+          <ul><li>HTML y CSS</li><li>JavaScript básico</li><li>GitHub Pages</li></ul>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">05</span>
+          <h3>Asistencia técnica remota</h3>
+          <p>Seguimiento de solicitudes, clientes, archivos, tareas y entregas.</p>
+          <ul><li>Control de estados</li><li>Plantillas</li><li>Reportes semanales</li></ul>
+        </article>
       </div>
     </section>
 
-    <section id="proyectos" class="section container">
-      <div class="section-head reveal"><p class="kicker">Evidencia</p><h2>Casos demostrativos</h2><p>Proyectos creados para mostrar método de trabajo y capacidad de documentación.</p></div>
-      <div class="project-grid">
-        <article class="project featured reveal"><div><p class="project-type">QA Manual</p><h3>Reporte QA para landing page</h3><p>Plantilla con entorno, alcance, bugs, severidad, pasos para reproducir y criterios de aceptación.</p><div class="tags"><span>Testing web</span><span>Bug report</span><span>Responsive</span></div></div><a href="docs/qa-report-template.md">Ver documento →</a></article>
-        <article class="project reveal"><div><p class="project-type">Data</p><h3>Caso de limpieza y control de datos</h3><p>Estructura para medir ingresos, gastos operativos, abonos y avance semanal.</p><div class="tags"><span>CSV</span><span>Data cleaning</span><span>Dashboard</span></div></div><a href="docs/data-cleaning-case-study.md">Ver caso →</a></article>
-        <article class="project reveal"><div><p class="project-type">Freelance</p><h3>Plantillas de propuestas</h3><p>Mensajes listos para aplicar a trabajos de QA, limpieza de datos y landing pages.</p><div class="tags"><span>Proposals</span><span>Remote work</span><span>Client-ready</span></div></div><a href="docs/freelance-proposal-templates.md">Ver plantillas →</a></article>
+    <section class="section container" id="proyectos">
+      <header class="section-heading reveal">
+        <p class="eyebrow">Proyectos</p>
+        <h2>Evidencia antes que adjetivos</h2>
+        <p>Filtra los proyectos por área. Cada caso principal incluye problema, proceso, entregables, herramientas y mejoras futuras.</p>
+      </header>
+
+      <div class="project-toolbar reveal">
+        <div class="filter-buttons" role="group" aria-label="Filtrar proyectos">
+          <button class="filter active" data-filter="all">Todos</button>
+          <button class="filter" data-filter="qa">QA</button>
+          <button class="filter" data-filter="data">Datos</button>
+          <button class="filter" data-filter="ops">Operaciones</button>
+          <button class="filter" data-filter="research">Research</button>
+          <button class="filter" data-filter="web">Web</button>
+        </div>
+        <label class="search-box">
+          <span class="sr-only">Buscar proyectos</span>
+          <input id="projectSearch" type="search" placeholder="Buscar proyecto o habilidad">
+        </label>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card featured reveal" data-category="qa" data-search="qa lab bugs severidad testing web">
+          <div><p class="project-type">QA Manual · Caso principal</p><h3>QA Lab</h3><p>Laboratorio de bugs con severidad, pasos, resultado esperado, evidencia y recomendación.</p><div class="tag-list"><span>Bug reports</span><span>Test cases</span><span>Responsive</span></div></div>
+          <a href="case-studies/qa-lab.html">Abrir caso completo →</a>
+        </article>
+        <article class="project-card featured reveal" data-category="data" data-search="finance control datos csv dashboard movimientos">
+          <div><p class="project-type">Data · Caso principal</p><h3>Finance Control Demo</h3><p>Movimientos sintéticos convertidos en tabla limpia, indicadores, pendientes y lectura ejecutiva.</p><div class="tag-list"><span>CSV</span><span>Sheets</span><span>Data cleaning</span></div></div>
+          <a href="case-studies/finance-control.html">Abrir caso completo →</a>
+        </article>
+        <article class="project-card featured reveal" data-category="ops" data-search="document qa expedientes checklist data entry">
+          <div><p class="project-type">QA documental · Caso principal</p><h3>Document QA</h3><p>Checklist de documentos, campos obligatorios, errores frecuentes, estados y observaciones.</p><div class="tag-list"><span>Checklists</span><span>Data entry</span><span>Docs</span></div></div>
+          <a href="case-studies/document-qa.html">Abrir caso completo →</a>
+        </article>
+        <article class="project-card reveal" data-category="ops" data-search="freelance command center propuestas clientes seguimiento crm">
+          <div><p class="project-type">Operaciones</p><h3>Freelance Command Center</h3><p>Seguimiento de postulaciones, clientes, valor estimado, entregas y próximos pasos.</p><div class="tag-list"><span>CRM básico</span><span>Seguimiento</span></div></div>
+          <a href="case-studies/freelance-command-center.html">Ver caso →</a>
+        </article>
+        <article class="project-card reveal" data-category="research" data-search="vanlife presupuesto riesgos escenarios research">
+          <div><p class="project-type">Research</p><h3>Vanlife Budget Planner</h3><p>Presupuesto austero, realista y cómodo con categorías, reservas y matriz de riesgos.</p><div class="tag-list"><span>Budget</span><span>Risk matrix</span></div></div>
+          <a href="case-studies/vanlife-budget-planner.html">Ver caso →</a>
+        </article>
+        <article class="project-card reveal" data-category="qa web" data-search="accesibilidad contraste teclado formularios html">
+          <div><p class="project-type">QA Web</p><h3>Accessibility Audit</h3><p>Checklist de contraste, navegación con teclado, labels, encabezados y enlaces descriptivos.</p><div class="tag-list"><span>A11y</span><span>HTML</span></div></div>
+          <a href="case-studies/accessibility-audit.html">Ver caso →</a>
+        </article>
+        <article class="project-card reveal" data-category="data" data-search="csv cleaner limpieza duplicados normalizacion">
+          <div><p class="project-type">Data</p><h3>CSV Cleaner Spec</h3><p>Reglas de limpieza, normalización, validación y comparación antes/después.</p></div>
+          <a href="projects/csv-cleaner-spec/README.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="qa" data-search="requirements audit requisitos criterios aceptacion riesgos">
+          <div><p class="project-type">QA preventivo</p><h3>Requirements Audit</h3><p>Detección de requisitos ambiguos, preguntas pendientes y criterios de aceptación.</p></div>
+          <a href="projects/requirements-audit/README.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="qa" data-search="api testing postman json casos positivos negativos">
+          <div><p class="project-type">QA técnico</p><h3>API Testing Notes</h3><p>Matriz de servicios, casos positivos, negativos, respuestas esperadas y observaciones.</p></div>
+          <a href="projects/api-testing-notes/CASE_STUDY.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="web" data-search="landing page html css javascript github pages">
+          <div><p class="project-type">Front-end</p><h3>Landing Page Kit</h3><p>Plantilla reutilizable con hero, servicios, proceso, evidencia y contacto.</p></div>
+          <a href="projects/landing-page-kit/CASE_STUDY.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="ops data" data-search="sticker tracker inventario listas faltantes repetidos">
+          <div><p class="project-type">Data Entry</p><h3>Sticker Tracker</h3><p>Control de faltantes, repetidos y porcentaje de avance por persona.</p></div>
+          <a href="projects/sticker-tracker/README.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="ops" data-search="support demo tickets prioridad estado respuesta">
+          <div><p class="project-type">Soporte</p><h3>Support Demo</h3><p>Clasificación de solicitudes, prioridades, estados y respuestas iniciales.</p></div>
+          <a href="projects/support-demo/README.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="research" data-search="route risk matrix rutas riesgo costo mitigacion">
+          <div><p class="project-type">Research</p><h3>Route Risk Matrix</h3><p>Matriz de etapas, riesgos, prioridad, mitigación y costo estimado.</p></div>
+          <a href="projects/route-risk-matrix/README.md">Ver documentación →</a>
+        </article>
+        <article class="project-card reveal" data-category="ops web" data-search="job application kit portfolio propuestas cv trabajo">
+          <div><p class="project-type">Carrera</p><h3>Job Application Kit</h3><p>Bio, pitch, propuestas, checklist y enlaces para aplicar más rápido.</p></div>
+          <a href="projects/job-application-kit/CASE_STUDY.md">Ver documentación →</a>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No hay proyectos que coincidan. La búsqueda logró lo imposible: dejar un portafolio sin tarjetas.</p>
+    </section>
+
+    <section class="section container evidence-section">
+      <header class="section-heading reveal">
+        <p class="eyebrow">Evidencia adicional</p>
+        <h2>Documentos y datos revisables</h2>
+      </header>
+      <div class="evidence-grid">
+        <a class="evidence-card reveal" href="docs/QA-METHODOLOGY.md"><span>01</span><h3>Metodología QA</h3><p>Severidad, casos, evidencias y criterios.</p></a>
+        <a class="evidence-card reveal" href="docs/SERVICES.md"><span>02</span><h3>Catálogo de servicios</h3><p>Alcance, entregables y exclusiones.</p></a>
+        <a class="evidence-card reveal" href="data/portfolio-projects.csv"><span>03</span><h3>Dataset de proyectos</h3><p>Inventario editable de casos y habilidades.</p></a>
+        <a class="evidence-card reveal" href="data/freelance-tracker.csv"><span>04</span><h3>Tracker freelance</h3><p>Ejemplo de seguimiento operativo.</p></a>
       </div>
     </section>
 
-    <section id="proceso" class="section container">
-      <div class="section-head reveal"><p class="kicker">Proceso</p><h2>Cómo trabajo</h2></div>
+    <section class="section container" id="metodo">
+      <header class="section-heading reveal"><p class="eyebrow">Método</p><h2>Cómo convierto una tarea en entrega</h2></header>
       <div class="timeline">
-        <article class="step reveal"><span>1</span><h3>Entiendo el objetivo</h3><p>Defino qué debe funcionar y qué se debe entregar.</p></article>
-        <article class="step reveal"><span>2</span><h3>Reviso con método</h3><p>Pruebo navegación, datos, estructura o comportamiento esperado.</p></article>
-        <article class="step reveal"><span>3</span><h3>Documento</h3><p>Registro errores con severidad, pasos, evidencia y sugerencias.</p></article>
-        <article class="step reveal"><span>4</span><h3>Entrego accionable</h3><p>El cliente recibe algo claro para corregir o decidir.</p></article>
+        <article class="step reveal"><span>1</span><h3>Entender</h3><p>Objetivo, usuario, alcance, restricciones y definición de terminado.</p></article>
+        <article class="step reveal"><span>2</span><h3>Ordenar</h3><p>Datos, requisitos, documentos, flujos y prioridades.</p></article>
+        <article class="step reveal"><span>3</span><h3>Revisar</h3><p>Errores, inconsistencias, riesgos, casos límite y pendientes.</p></article>
+        <article class="step reveal"><span>4</span><h3>Documentar</h3><p>Evidencias, pasos, severidad, resultados y recomendaciones.</p></article>
+        <article class="step reveal"><span>5</span><h3>Entregar</h3><p>Archivos claros, resumen ejecutivo y siguiente mejora.</p></article>
       </div>
     </section>
 
-    <section id="contacto" class="section container contact">
-      <div class="section-head reveal"><p class="kicker">Contacto</p><h2>Disponible para proyectos remotos</h2></div>
-      <div class="contact-grid">
-        <article class="contact-card reveal"><h3>Email</h3><a href="mailto:25angel05oliva@gmail.com">25angel05oliva@gmail.com</a></article>
-        <article class="contact-card reveal"><h3>GitHub</h3><a href="https://github.com/shadow2505" target="_blank" rel="noreferrer">github.com/shadow2505</a></article>
-        <article class="contact-card reveal"><h3>Ubicación</h3><p>Puebla, México · Remoto</p></article>
+    <section class="section container contact-section" id="contacto">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Disponible para proyectos remotos junior</h2>
+          <p>Puedo empezar con una revisión pequeña y un entregable definido. Bastante revolucionario comparado con prometer “transformación digital” sin explicar qué demonios significa.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:25angel05oliva@gmail.com">Enviar correo</a>
+          <a class="button secondary" href="https://github.com/shadow2505" target="_blank" rel="noreferrer">Ver GitHub</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer container"><p>© 2026 Angel Alejandro · QA Manual · Data · Front-end</p><a href="#inicio">Volver arriba ↑</a></footer>
+  <footer class="footer container">
+    <p>© <span id="year">2026</span> Angel Alejandro Oliva Romero</p>
+    <p>QA Manual · Datos · Front-end · Documentación</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>

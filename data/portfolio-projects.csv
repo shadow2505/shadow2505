@@ -1,0 +1,15 @@
+project,area,status,evidence,service
+QA Lab,QA Manual,featured,bug reports and test cases,manual website audit
+Finance Control Demo,Data,featured,clean table and indicators,data cleaning
+Document QA,Operations,featured,checklist and observations,document control
+Freelance Command Center,Operations,featured,proposal tracker,virtual assistance
+Vanlife Budget Planner,Research,featured,budget scenarios and risks,research and planning
+Accessibility Audit,QA Web,featured,a11y checklist,website accessibility review
+CSV Cleaner Spec,Data,documented,cleaning rules,data cleaning
+Requirements Audit,QA,documented,acceptance criteria,requirements review
+API Testing Notes,QA Technical,documented,positive and negative cases,API testing support
+Landing Page Kit,Web,documented,reusable template,basic landing page
+Sticker Tracker,Data Entry,documented,inventory tracking,data entry
+Support Demo,Support,documented,ticket states,remote support
+Route Risk Matrix,Research,documented,risk matrix,research support
+Job Application Kit,Career,documented,pitches and proposals,profile preparation

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finance Control Demo | Caso de estudio</title>
+  <meta name="description" content="Caso de estudio de limpieza y lectura de movimientos financieros sintéticos.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="case.css">
+</head>
+<body class="case-page">
+  <nav class="case-nav"><a href="../index.html#proyectos">← Volver al portafolio</a></nav>
+  <header class="case-hero">
+    <p class="eyebrow">Data Cleaning · Caso principal</p>
+    <h1>Finance Control Demo</h1>
+    <p class="case-summary">Sistema demostrativo para transformar movimientos sintéticos en una tabla limpia, indicadores y una lectura ejecutiva útil para tomar decisiones.</p>
+    <div class="case-meta"><span>CSV</span><span>Google Sheets</span><span>Data cleaning</span><span>Reporting</span></div>
+  </header>
+
+  <main class="case-layout">
+    <section class="case-card full">
+      <h2>Problema</h2>
+      <p>Los movimientos pueden llegar con fechas mezcladas, montos como texto, categorías duplicadas y notas incompletas. Ver filas no equivale a entenderlas, aunque las hojas de cálculo lleven décadas fingiendo lo contrario.</p>
+    </section>
+
+    <section class="case-card">
+      <h2>Objetivo</h2>
+      <ul>
+        <li>Normalizar la estructura.</li>
+        <li>Separar entradas, salidas y ajustes.</li>
+        <li>Marcar registros pendientes.</li>
+        <li>Generar indicadores simples.</li>
+        <li>Redactar una lectura final.</li>
+      </ul>
+    </section>
+
+    <section class="case-card">
+      <h2>Campos base</h2>
+      <ul>
+        <li>Fecha</li>
+        <li>Tipo</li>
+        <li>Categoría</li>
+        <li>Descripción</li>
+        <li>Monto</li>
+        <li>Estado</li>
+        <li>Nota</li>
+      </ul>
+    </section>
+
+    <section class="case-card full">
+      <h2>Ejemplo de indicadores</h2>
+      <table class="case-table">
+        <thead><tr><th>Indicador</th><th>Uso</th><th>Resultado demostrativo</th></tr></thead>
+        <tbody>
+          <tr><td>Total de entradas</td><td>Medir recursos recibidos.</td><td>$8,400</td></tr>
+          <tr><td>Total de salidas</td><td>Medir gasto registrado.</td><td>$5,960</td></tr>
+          <tr><td>Balance neto</td><td>Entradas menos salidas.</td><td>$2,440</td></tr>
+          <tr><td>Pendientes</td><td>Movimientos que requieren validación.</td><td>4 registros</td></tr>
+          <tr><td>Categoría principal</td><td>Detectar el rubro de mayor peso.</td><td>Servicios</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="case-card">
+      <h2>Proceso</h2>
+      <ol>
+        <li>Revisar encabezados.</li>
+        <li>Convertir fechas y montos.</li>
+        <li>Unificar categorías.</li>
+        <li>Revisar duplicados.</li>
+        <li>Marcar pendientes.</li>
+        <li>Crear resumen.</li>
+      </ol>
+    </section>
+
+    <section class="case-card">
+      <h2>Riesgos de calidad</h2>
+      <ul>
+        <li>Montos como texto.</li>
+        <li>Fechas con formatos distintos.</li>
+        <li>Categorías redundantes.</li>
+        <li>Descripciones ambiguas.</li>
+        <li>Registros incompletos.</li>
+      </ul>
+    </section>
+
+    <section class="case-card full case-result">
+      <h2>Qué demuestra</h2>
+      <p>Capacidad para limpiar información, establecer reglas de validación y entregar un resumen entendible. El servicio relacionado es data cleaning, data entry y preparación de reportes simples.</p>
+      <div class="case-actions"><a class="button primary" href="../data/portfolio-projects.csv">Ver dataset del portafolio</a><a class="button secondary" href="../projects/finance-control-demo/CASE_STUDY.md">Ver documentación previa</a></div>
+    </section>
+  </main>
+</body>
+</html>

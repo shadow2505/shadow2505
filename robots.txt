@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shadow2505.github.io/shadow2505/sitemap.xml

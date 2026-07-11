@@ -1,56 +1,69 @@
 # Angel Alejandro Oliva Romero
 
-Estudiante de Ingenieria en Sistemas Computacionales en Puebla, Mexico.
+**QA Manual Junior · Web Testing · Data Cleaning · Front-end básico · Documentación técnica**
 
-Perfil orientado a trabajo remoto junior: QA Manual, Web Testing, Data Cleaning, Front-end basico, documentacion tecnica y asistencia virtual.
+Estudiante de Ingeniería en Sistemas Computacionales en Puebla, México. Este repositorio reúne proyectos demostrativos orientados a trabajo remoto junior y freelance. El objetivo no es aparentar experiencia senior, sino mostrar criterio, orden, documentación y capacidad de entrega.
 
-## Propuesta
+## Propuesta de valor
 
-Puedo ayudar a revisar sitios web, documentar errores, ordenar datos, preparar reportes, crear landing pages simples y organizar informacion de proyectos.
+Puedo revisar sitios web, detectar errores, organizar información, limpiar datos, preparar reportes y construir páginas informativas simples. Mi enfoque es convertir tareas ambiguas o desordenadas en entregables claros y accionables.
 
-## Proyectos demostrativos
+## Roles objetivo
 
-| Area | Proyecto | Link |
-|---|---|---|
-| QA | QA Lab | projects/qa-lab/index.html |
-| QA | Plan de pruebas web | projects/test-plan/index.html |
-| QA | Requirements Audit | projects/requirements-audit/README.md |
-| QA | API Testing Notes | projects/api-testing-notes/README.md |
-| QA | Accessibility Checklist | projects/accessibility-checklist/README.md |
-| Data | Finance Control Demo | projects/finance-control-demo/README.md |
-| Data | Revision de datos | projects/data-review/index.html |
-| Data | CSV Cleaner Spec | projects/csv-cleaner-spec/README.md |
-| Data | Sticker Tracker | projects/sticker-tracker/README.md |
-| Data | Mini CRM Sheet | projects/mini-crm-sheet/README.md |
-| Docs | Document QA | projects/document-qa/README.md |
-| Docs | Experiment Log | projects/experiment-log/README.md |
-| Ops | Freelance Command Center | projects/freelance-command-center/README.md |
-| Ops | Support Demo | projects/support-demo/README.md |
-| Research | Vanlife Budget Planner | projects/vanlife-budget-planner/README.md |
-| Research | Route Risk Matrix | projects/route-risk-matrix/README.md |
-| Web | Landing Page Kit | projects/landing-page-kit/README.md |
-| IA Docs | Prompt Library System | projects/prompt-library-system/README.md |
-
-## Documentos clave
-
-- docs/portfolio-expansion.md
-- docs/project-index.md
-- docs/service-catalog.md
-- docs/freelance-proposal-templates.md
-- docs/qa-report-template.md
-- docs/data-cleaning-case-study.md
-
-## Stack
-
-| Area | Herramientas |
+| Rol | Evidencia en el portafolio |
 |---|---|
-| QA | Manual testing, bug reports, test cases |
-| Front-end | HTML, CSS, JavaScript |
-| Datos | Google Sheets, CSV, SQL basico |
-| Docs | GitHub, Markdown, reportes |
+| QA Manual Junior | reportes de bugs, test plans, criterios de aceptación y checklists |
+| Web Tester | formularios, navegación, responsive, enlaces y contenido |
+| Data Entry / Data Cleaning | CSV, categorías, duplicados, campos vacíos y validación |
+| Technical Virtual Assistant | control documental, seguimiento, tickets y plantillas |
+| Junior Front-end Assistant | HTML, CSS, JavaScript y GitHub Pages |
+
+## Proyectos destacados
+
+| Proyecto | Área | Evidencia principal |
+|---|---|---|
+| QA Lab | QA Manual | severidad, pasos para reproducir y resultados esperados |
+| Finance Control Demo | Data | limpieza, indicadores y lectura ejecutiva |
+| Document QA | QA documental | checklist, campos obligatorios y observaciones |
+| Freelance Command Center | Operaciones | seguimiento de propuestas, clientes y entregas |
+| Vanlife Budget Planner | Research | escenarios, costos y matriz de riesgos |
+| Accessibility Audit | QA web | contraste, teclado, formularios y jerarquía |
+
+## Stack defendible
+
+| Área | Herramientas |
+|---|---|
+| QA | manual testing, test cases, bug reports, checklists |
+| Front-end | HTML, CSS, JavaScript básico, GitHub Pages |
+| Datos | CSV, Google Sheets, SQL básico, validación manual |
+| Documentación | Markdown, GitHub, reportes y plantillas |
+| Operaciones | seguimiento, priorización y control de estados |
+
+## Estructura del repositorio
+
+```text
+index.html
+styles.css
+script.js
+case-studies/
+docs/
+data/
+projects/
+manifest.webmanifest
+robots.txt
+sitemap.xml
+```
+
+## Publicación
+
+La versión V4 está preparada en la rama `portfolio-v4-ready`. Después de revisar el Pull Request, se puede fusionar a `main` y activar GitHub Pages desde:
+
+```text
+Settings > Pages > Deploy from a branch > main > /root
+```
 
 ## Contacto
 
-Email: 25angel05oliva@gmail.com  
-GitHub: https://github.com/shadow2505  
-Ubicacion: Puebla, Mexico
+- Email: 25angel05oliva@gmail.com
+- GitHub: https://github.com/shadow2505
+- Ubicación: Puebla, México

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility Audit | Caso de estudio</title>
+  <meta name="description" content="Caso de estudio de accesibilidad web básica para landing pages y sitios pequeños.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="case.css">
+</head>
+<body class="case-page">
+  <nav class="case-nav"><a href="../index.html#proyectos">← Volver al portafolio</a></nav>
+  <header class="case-hero">
+    <p class="eyebrow">QA Web · Caso principal</p>
+    <h1>Accessibility Audit</h1>
+    <p class="case-summary">Checklist de accesibilidad básica para revisar contraste, navegación con teclado, formularios, encabezados, enlaces y alternativas de texto.</p>
+    <div class="case-meta"><span>A11y</span><span>HTML</span><span>Keyboard testing</span><span>Manual QA</span></div>
+  </header>
+
+  <main class="case-layout">
+    <section class="case-card full">
+      <h2>Problema</h2>
+      <p>Una página puede verse moderna y seguir siendo difícil de usar para personas con distintas necesidades. La accesibilidad básica no requiere magia arcana: requiere revisar cosas que demasiados sitios ignoran con una tranquilidad admirable.</p>
+    </section>
+
+    <section class="case-card">
+      <h2>Objetivo</h2>
+      <ul>
+        <li>Detectar barreras comunes.</li>
+        <li>Revisar el uso con teclado.</li>
+        <li>Validar formularios y labels.</li>
+        <li>Comprobar jerarquía de encabezados.</li>
+        <li>Priorizar correcciones simples.</li>
+      </ul>
+    </section>
+
+    <section class="case-card">
+      <h2>Áreas revisadas</h2>
+      <ul>
+        <li>Contraste visual.</li>
+        <li>Texto alternativo.</li>
+        <li>Focus visible.</li>
+        <li>Labels de formularios.</li>
+        <li>Orden de encabezados.</li>
+        <li>Texto de enlaces.</li>
+        <li>Reducción de movimiento.</li>
+      </ul>
+    </section>
+
+    <section class="case-card full">
+      <h2>Checklist demostrativo</h2>
+      <table class="case-table">
+        <thead><tr><th>Revisión</th><th>Criterio</th><th>Problema posible</th><th>Recomendación</th></tr></thead>
+        <tbody>
+          <tr><td>Teclado</td><td>Todos los controles son alcanzables.</td><td>Botón inaccesible sin mouse.</td><td>Usar elementos interactivos nativos.</td></tr>
+          <tr><td>Focus</td><td>El elemento activo es visible.</td><td>Usuario no sabe dónde está.</td><td>Agregar estilo de focus.</td></tr>
+          <tr><td>Formulario</td><td>Cada campo tiene label.</td><td>Campo sin contexto.</td><td>Relacionar label con input.</td></tr>
+          <tr><td>Encabezados</td><td>Jerarquía lógica.</td><td>Saltos de h1 a h4.</td><td>Ordenar niveles semánticos.</td></tr>
+          <tr><td>Enlaces</td><td>Texto descriptivo.</td><td>Varios “haz clic aquí”.</td><td>Describir el destino.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="case-card">
+      <h2>Proceso</h2>
+      <ol>
+        <li>Revisar estructura HTML.</li>
+        <li>Navegar solo con teclado.</li>
+        <li>Comprobar contraste.</li>
+        <li>Revisar formularios.</li>
+        <li>Registrar hallazgos.</li>
+        <li>Priorizar correcciones.</li>
+      </ol>
+    </section>
+
+    <section class="case-card">
+      <h2>Entregables</h2>
+      <ul>
+        <li>Checklist completado.</li>
+        <li>Lista de problemas.</li>
+        <li>Prioridad por impacto.</li>
+        <li>Recomendación por punto.</li>
+        <li>Resumen antes de publicar.</li>
+      </ul>
+    </section>
+
+    <section class="case-card full case-result">
+      <h2>Qué demuestra</h2>
+      <p>Capacidad para ampliar una revisión QA más allá de errores visuales y considerar experiencia de uso, semántica y accesibilidad básica. El servicio relacionado es auditoría web para landing pages y sitios pequeños.</p>
+      <div class="case-actions"><a class="button primary" href="../projects/accessibility-checklist/CASE_STUDY.md">Ver documentación previa</a><a class="button secondary" href="../docs/QA-METHODOLOGY.md">Ver metodología QA</a></div>
+    </section>
+  </main>
+</body>
+</html>
